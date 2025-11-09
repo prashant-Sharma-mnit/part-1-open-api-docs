@@ -298,7 +298,7 @@ Authorization is **mandatory** via Bearer Token in the `Authorization` header.
 | `IsIntraday`     | boolean | ❌        | `true` = intraday, `false` = delivery         |
 | `iOrderValidity` | integer | ❌        | 0 = Day, 5 = GTD, 3 = IOC, etc.               |
 | `AHPlaced`       | string  | ❌        | After Market Order flag: `Y` or `N`           |
-| `RemoteOrderID`  | string  | ✅        | user defined Custom ID for user tracking      |
+| `RemoteOrderID`  | string  | ❌        | user defined Custom ID for user tracking (recommended)   |
 | `ValidTillDate`  | string  | ❌        | For GTD/VTD orders in `/Date(Unix)` format    |
 | `AlgoID`         | integer | ❌        | Strategy-specific algorithm ID                |
 | `DeviceID`       | string  | ❌       | Unique device/app instance ID                 |
